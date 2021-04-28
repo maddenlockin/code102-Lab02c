@@ -1,0 +1,115 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 240, 240);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    grid-template-rows: .7fr 3fr .5fr;
+    border: solid 1px black;
+    height: 100%;
+    width:100%;
+    font-family: Calibre, "Helvetica Neue", sans-serif;
+}
+
+.top-nav {
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    border: white;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo {
+
+}
+.start-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.2fr 1fr 1fr 2.5fr;
+    }
+.start-hosting {
+    background-color: rgb(133, 219, 162);
+    color: white;
+     border: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10%;
+    width: 58%;
+    height: 120%
+}
+.middle {
+    display: grid;
+    grid-template-rows: .3fr 1.6fr;
+    border: solid 1px black;
+    
+}
+.search {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr .5fr;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    
+}
+.specifics {
+    display: grid;
+    
+}
+.title {
+    font-weight medium;
+    font-variant:initial;
+    font-size: .8rem;
+    
+
+}
+.box {
+    background-color: ivory;
+    border: solid 1px black;
+    height: 1.8rem;
+
+}
+.search-button {
+    background-color: rgb(133, 219, 162);
+    color: white;
+    border: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    height: 40%;
+    width: 35%;
+}
+.photo img {
+    display:flex;
+    width: 60%;
+    justify-content: center;
+}
+.bottom-nav {
+    display: grid;
+    grid-template-columns: 2.5fr .3fr;
+}
+.help-button {
+    background-color: rgb(133, 219, 162);
+    color: white;
+    border: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10%;
+    width: 60%;
+
+}
